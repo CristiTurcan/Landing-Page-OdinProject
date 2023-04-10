@@ -1,0 +1,14 @@
+.header,
+.footer,
+.hero {
+    background-color: #1F2937;
+    color: white;
+}
+
+.reviews {
+    background-color: #e5e7eb;
+}
+
+.contact {
+    background-color: #3882f6;
+}
