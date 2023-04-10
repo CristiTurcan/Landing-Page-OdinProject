@@ -174,3 +174,11 @@ p{
     justify-content: space-between;
     align-items: center;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 25px;
+}
