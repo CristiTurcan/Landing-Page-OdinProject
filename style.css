@@ -68,20 +68,16 @@ a {
     text-align: justify;
 }
 
-.hero {
+.hero-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 60px;
+    padding: 0 200px;
 }
 
 .text-part {
-    height: 200px;
-    padding: 0px 40px 80px 200px;
-}
-
-.image-part {
-    padding-right: 200px;
+    padding-right: 100px;
+    padding-bottom: 50px;
 }
 
 .image-part img {
