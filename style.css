@@ -15,7 +15,7 @@
 body{
     display: flex;
     flex-direction: column;
-
+    font-family: Helvetica, sans-serif;
 }
 
 .container{
@@ -35,14 +35,14 @@ body{
     gap: 10px;
     color: #e5e7eb;
     font-size: 18px;
-    padding: 0 100px;
+    padding-right: 200px;
     text-align: center;
 }
 
 .left{
     font-size: 24px;
     color:#f9faf8;
-    padding: 0 100px;
+    padding-left: 200px;
     text-align: center;
 }
 
@@ -53,4 +53,28 @@ ul {
 a {
     color: #e5e7eb;
     text-decoration: none;
+}
+
+#title{
+     font-size: 48px;
+     font-weight: 900;
+     color: #f9faf8;
+}
+
+#subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-part {
+    padding-left: 200px;
+}
+
+.image-part {
+    padding-right: 200px;
 }
