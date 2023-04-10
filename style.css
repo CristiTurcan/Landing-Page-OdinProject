@@ -49,3 +49,8 @@ body{
 ul {
     list-style-type: none;
 }
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
