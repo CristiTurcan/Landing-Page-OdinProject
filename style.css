@@ -12,3 +12,14 @@
 .contact {
     background-color: #3882f6;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero,
+.reviews,
+.contact {
+
+}
