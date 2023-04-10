@@ -64,17 +64,35 @@ a {
 #subtitle {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 8px;
+    text-align: justify;
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 60px;
 }
 
 .text-part {
-    padding-left: 200px;
+    height: 200px;
+    padding: 0px 40px 80px 200px;
 }
 
 .image-part {
     padding-right: 200px;
+}
+
+.image-part img {
+    height: 200px;
+    width:auto;
+}
+
+.hero button {
+    padding: 5px 20px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    border: 0px;
 }
