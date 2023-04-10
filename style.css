@@ -6,6 +6,7 @@
 
 .reviews {
     background-color: #e5e7eb;
+    padding: 100px;
 }
 
 .contact {
@@ -123,3 +124,25 @@ a {
     height: 100px;
     width: 100px;
 }
+
+.reviews div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+#quote,
+#author {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+}
+
+#author {
+    margin-top: 10px;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-style: normal;   
+}
+
