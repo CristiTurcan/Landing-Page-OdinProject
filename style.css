@@ -55,13 +55,13 @@ a {
     text-decoration: none;
 }
 
-#title{
+#hero-title{
      font-size: 48px;
      font-weight: 900;
      color: #f9faf8;
 }
 
-#subtitle {
+#hero-subtitle {
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 8px;
@@ -72,12 +72,11 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 200px;
+    padding: 60px 200px;
 }
 
 .text-part {
     padding-right: 100px;
-    padding-bottom: 50px;
 }
 
 .image-part img {
@@ -91,4 +90,36 @@ a {
     color: white;
     border-radius: 8px;
     border: 0px;
+}
+
+.content-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 30px;
+}
+
+.images{
+    margin-bottom: 70px;
+}
+
+.images ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.images ul li div {
+    width: 100px;
+}
+
+.images img{
+    border: 3px solid rgb(10, 85, 136);
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
 }
